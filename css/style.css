@@ -1,0 +1,126 @@
+html,
+body {
+    font-family: cursive;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #dadada;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+}
+
+a {
+    color: #6b1394;
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(90deg, #6b1394, #9d2bd1);
+    color: #eee;
+    text-align-last: center;
+}
+
+header a {
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    display: block;
+    padding: 1rem;
+    margin: auto;
+}
+
+.py-3 {
+    padding-top: 3rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.my-3 {
+    margin-top: 3rem;
+}
+
+#canvas {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.image-displayed {
+    width: 100%;
+}
+
+.form-control {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #6b1394;
+    background: linear-gradient(90deg, #6b1394, #9d2bd1);
+    color: #fff;
+}
+
+.form-control::-webkit-file-upload-button {
+    visibility: hidden;
+    display: hidden;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.w-50 {
+    width: 45%;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: #ededed;
+    box-shadow: 0 0 10px #dedede;
+    border-radius: 1rem;
+}
+
+.btn {
+    padding: .3rem 1.5rem;
+    border: 2px solid #6b1394;
+    background: linear-gradient(90deg, #6b1394, #9d2bd1);
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.btn:disabled {
+    border-color: #bbb;
+    background: linear-gradient(90deg, #999, #bbb);
+    color: #444;
+}
+
+.btn:focus,.form-control:focus {
+    outline: none;
+}
+
+footer {
+    background-color: #ededed;
+}
+
+
+@media all and (max-width: 480px){
+    .w-50 {
+        width: 100%;
+        margin: 1rem 0 1rem 0;
+    }
+}
+

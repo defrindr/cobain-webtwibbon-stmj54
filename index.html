@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Twibbon STMJ 54">
+    <meta name="title" content="Twibbon STMJ 54">
+    <meta name="og:description" content="Twibbon STMJ 54">
+    <meta name="og:title" content="Twibbon STMJ 54">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="keywords" content="Twibbon, STMJ , STMJ 54">
+    <meta name="author" content="Defri Indra Mahardika">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="http://defrindr.my.id">
+                <h1>
+                    STMJ 45 Twibbon Generator
+                </h1>
+            </a>
+            <p>
+                Just For Fun
+            </p>
+        </div>
+    </header>
+    <div id="main">
+        <div class="container py-3">
+            <div class="d-flex">
+                <div class="w-50">
+                    <div class="box p-2">
+                        <p>
+                            Note: <br>
+                            Usahakan ukuran gambar persegi
+                        </p>
+                        <input type="file" name="image_input" id="image_input" class="form-control">
+                        <button type="submit" onclick="generate()" class="btn">Generate</button>
+                    </div>
+                </div>
+                <div class="w-50">
+                    <div class="box p-2">
+                        <canvas id="canvas">
+                        </canvas>
+                        <button class="btn my-3" onclick="download()" id="download" disabled>Download</button>
+                    </div>
+                </div>
+            </div>
+            <div class="py-3"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>
+                Made with &hearts; by <a href="https://instagram.com/defrindr">Defri Indra M</a> & <a href="#">Arsyad Rifa'I</a>
+            </p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
