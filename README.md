@@ -1,2 +1,2 @@
 # Twibbon STMJ
-twibbon generator, just for fun
+only Twibbon, just for fun
